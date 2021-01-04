@@ -43,7 +43,7 @@ module.exports = {
      *    (See https://sailsjs.com/config/datastores for help.)                 *
      *                                                                          *
      ***************************************************************************/
-    default: {
+    postgres: {
       adapter: "sails-postgresql",
       url: process.env.DATABASE_URL,
       ssl: true,
