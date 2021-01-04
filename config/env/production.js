@@ -19,8 +19,6 @@
  * https://sailsjs.com/docs/concepts/deployment
  */
 
-const url = require("url").parse(process.env.DATABASE_URL);
-
 module.exports = {
   /**************************************************************************
    *                                                                         *
@@ -47,13 +45,8 @@ module.exports = {
      ***************************************************************************/
     default: {
       adapter: "sails-postgresql",
-      // url: process.env.DATABASE_URL,
+      url: process.env.DATABASE_URL,
       ssl: true,
-      host: url.host.split(":")[0],
-      user: url.auth.split(":")[0],
-      password: url.auth.split(":")[1],
-      database: url.pathname.substring(1),
-      port: url.port,
 
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set

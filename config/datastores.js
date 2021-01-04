@@ -50,5 +50,6 @@ module.exports.datastores = {
 
     adapter: "sails-postgresql",
     url: "postgres://postgres:Frankenstein@localhost:5432/postgres",
+    ssl: true,
   },
 };
