@@ -226,8 +226,8 @@ module.exports = {
      *                                                                          *
      ***************************************************************************/
     onlyAllowOrigins: [
-      "http://peaceful-stream-24236.herokuapp.com/ ",
-      "https://peaceful-stream-24236.herokuapp.com/",
+      "http://peaceful-stream-24236.herokuapp.com",
+      "https://peaceful-stream-24236.herokuapp.com",
     ],
     /***************************************************************************
      *                                                                          *
