@@ -225,7 +225,10 @@ module.exports = {
      * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
      *                                                                          *
      ***************************************************************************/
-    onlyAllowOrigins: ["https://example.com", "https://staging.example.com"],
+    onlyAllowOrigins: [
+      "http://peaceful-stream-24236.herokuapp.com/ ",
+      "https://peaceful-stream-24236.herokuapp.com/",
+    ],
     /***************************************************************************
      *                                                                          *
      * If you are deploying a cluster of multiple servers and/or processes,     *
