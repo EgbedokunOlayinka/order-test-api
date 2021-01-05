@@ -2,6 +2,8 @@
 
 a [Sails v1](https://sailsjs.com) application
 
+[Live link can be accessed here](https://peaceful-stream-24236.herokuapp.com).
+
 
 ### Links
 
