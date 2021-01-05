@@ -49,7 +49,6 @@ module.exports = {
       ssl: {
         rejectUnauthorized: false,
       },
-      sslmode: require,
 
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
